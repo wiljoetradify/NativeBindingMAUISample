@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>NetBindingSample</id>
+    <version>1.1.0</version>
+    <title>NetBindingSample Test</title>
+    <authors>Nissan Leaf Driver</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <description>Testing iOS Binding</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Your Copyright (c) 2024</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+  <files>
+    <file src="manifest" target="lib\net8.0-ios14.0\NetBindingSample.resources" />
+    <file src="bin\Release\net8.0-ios\NetBindingSample.dll" target="lib\net8.0-ios14.0" />
+    <file src="bin\Release\net8.0-ios\NetBindingSample.resources\**\*.*" target="lib\net8.0-ios14.0\NetBindingSample.resources" />
+    <file src="bin\Release\net8.0-ios\NetBindingSample.resources\NativeBindingSample.xcframework\ios-arm64\NativeBindingSample.framework/NativeBindingSample" target="lib/net8.0-ios14.0/NetBindingSample.resources/NativeBindingSample.xcframework/ios-arm64/NativeBindingSample.framework" />
+    <file src="bin\Release\net8.0-ios\NetBindingSample.resources\NativeBindingSample.xcframework\ios-arm64_x86_64-simulator\NativeBindingSample.framework/NativeBindingSample" target="lib/net8.0-ios14.0/NetBindingSample.resources/NativeBindingSample.xcframework/ios-arm64_x86_64-simulator/NativeBindingSample.framework" />
+  </files>
+</package>
